@@ -2,6 +2,7 @@ html, body, #main{
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #main{
@@ -18,8 +19,8 @@ html, body, #main{
 }
 
 .container{
-  width: 49%;
-  height: 49%;
+  width: 50%;
+  height: 50%;
   padding: 0;
   margin: 0;
   display: inline-block;
