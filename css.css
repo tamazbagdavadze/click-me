@@ -1,0 +1,34 @@
+html, body, #main{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#main{
+  height: 100vh;
+  width: 100vh;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 100vh) {
+  #main{
+    width : 100vw;
+    height : 100vw;
+  }
+}
+
+.container{
+  width: 50%;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.circle{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
