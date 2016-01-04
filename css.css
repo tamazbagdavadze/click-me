@@ -13,10 +13,26 @@ html, body, #main{
 
 @media screen and (max-width: 100vh) {
   #main{
-    width : 100vw;
-    height : 100vw;
+      height: 100vw;
+      width: 100vw;
   }
 }
+
+/* experiment for high resolution */
+
+/*#main{
+  height: 500vh;
+  width: 500vh;
+  transform: translate(-200vh, -200vh) scaleX(0.2) scaleY(0.2);
+}
+
+@media screen and (max-width: 100vh) {
+  #main{
+      height: 500vw;
+      width: 500vw;
+      transform: translate(-200vw, -200vw) scaleX(0.2) scaleY(0.2);
+  }
+}*/
 
 .container{
   width: 50%;
